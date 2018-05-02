@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images_2/background-imagehomewrapper.jpg");
+    background-repeat: repeat;
+    background-size: 150px 200px;
+
+}
+
+.wrapper {
+    width: 1180px;
+    height: 400px;
+    background-image: url("images_2/background-imagehomewrapper.jpg");
+    background-repeat: repeat;
+    background-size: 150px 150px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    width: 450px;
+    height: 10px;
+   background-color: white;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 15px;
+
+
+
+}
+
+a:link {
+    text-decoration: none;
+    color: #00244d ;
+
+}
+
+a:visited {
+    color-decoration: none;
+    color: #004799;
+}
+
+a:hover {
+    color-decoration: none;
+    color: gold;
+    cursor: hand;
+}
+
+a:active {
+    color-decoration: none;
+    color: black;
+}
+
+#section1 {
+    width: 1200px;
+    height: 750px;
+    background-color: #2d5986;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 20px;
+
+
+
+
+}
+
+#section2 {
+    width: 1200px;
+    height: 800px;
+    background-color: #2d5986;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 275px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+
+}
+
+#section3 {
+    width: 1200px;
+    height: 800px;
+    background-color: #2d5986;
+    border-radius: 25px;
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+    margin-left: 275px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#section4 {
+    width: 1200px;
+    height: 800px;
+    background-color: #2d5986;
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+    margin-left: 275px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+
+}
+
+#section5 {
+    width: 1200px;
+    height: 800px;
+    background-color: #2d5986;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 25px;
+    position: relative;
+    margin-left: 275px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+
+
+
+}
+
+p {
+    display: inline;
+    padding: 0 20px;
+}
+
+footer {
+    width: 1180px;
+    height: 25px;
+    background-color: dodgerblue;
+    position: fixed;
+    bottom: 0;
+}
+
+.menu {
+    float: left;
+    padding-top: 50px;
+    padding-left: 230px;
+    padding-right: 25px;
+    text-align: center;
+
+
+
+
+
+}
+
+
+.happyhour {
+    float: right;
+    align-content: right;
+}
+
+.homepic {
+    padding-top: 100px;
+    padding-bottom: 90px;
+    border: 5px solid white;
+    border-radius: 25px;
+
+}
+
+.homekiku {
+    padding-top: 15px;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 1px;
+    font-family: Skia;
+}
+
+.font {
+    font-family: Skia;
+
+}
+
+.about {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    float: left;
+}
+
+.reserve {
+    float: left;
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-left: 85px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: x-large;
+    font-family: Skia;
+
+
+}
+
+.menuright {
+    float: left;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 0px;
+    text-align: center;
+    font-size: large;
+    font-family: Skia;
+
+
+}
+.menu_3 {
+    float: left;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 165px;
+    text-align: center;
+}
+
+.contact {
+    font-size: x-large;
+    text-align: center;
+    padding: 15px;
+    font-family: Skia;
+}
+
+.tables {
+    padding: 20px;
+    font-family: Skia;
+}
+
+.about_text {
+    font-size: large;
+    text-align: left;
+    padding-top: 50px;
+    padding-right: 50px;
+
+
+}
+.google_map {
+    text-align: center;
+    padding-top: 15px;
+
+
+}
+.hours {
+
+    font-family: Skia;
+    text-align: left;
+    padding-left: 200px;
+    font-size: x-large;
+    padding-bottom: 15px;
+}
+
+.logo {
+    background-size: 10px 20px;
+    text-align: center;
+    border-radius: 20%;
+
+}
+
+.button {
+    background-color: white;
+    border: none;
+    color: red;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 20%;
+    font-family: Skia;
+}
+
+.para_2 {
+    padding-top: 30px;
+}
+
+.meet {
+    padding-bottom: 5px;
+
+}
+.reserve_words {
+    text-align: left;
+    padding-top: 45px;
+    padding-bottom: 35px;
+
+}
+
+.contact_title {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 1px;
+    font-family: Skia;
+}
+
+/* Style all font awesome icons */
+.fa {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 5px;
+    margin-left: 900px;
+    width: 50px;
+    height: 15px;
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: white;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: white;
+    color: white;
+}
+
+.drinkpic {
+    padding-bottom: 50px;
+    float: left;
+
+}
+.partyroom {
+    padding-bottom: 15px;
+}
+.bar_area {
+    padding-bottom: 15px;
+}
+.table_reserve {
+    padding-bottom: 15px;
+}
+.bar_title {
+    font-size: x-large;
+}
+
+.happy_hour {
+    font-family: Skia;
+    color: whitesmoke;
+    text-align: center;
+padding-top: 10px;
+    color: white;
+
+}

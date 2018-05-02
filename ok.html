@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>One Page Scroll #1</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+<div id="top"></div>
+
+
+<div class="wrapper">
+    <nav>
+        <div class="arial">
+            <a href="#section1"><p id="nav-section1">HOME</p></a>
+            <a href="#section2"><p id="nav-section1">ABOUT</p></a>
+            <a href="#section3"><p id="nav-section1">MENU</p></a>
+            <a href="#section4"><p id="nav-section1">RESERVE</p></a>
+            <a href="#section5"><p id="nav-section1">CONTACT</p></a>
+        </div>
+
+    </nav>
+
+    <div class="arial">
+        <div id="section1">
+
+            <div class="homepic"><img src="images_2/homepage_image.png" alt="arrangement of sushi" width="1000" height="700"/>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="section2">
+        <div class="homekiku"><p>ABOUT</p></div>
+
+        <div class="about"><img src="images_2/outside.jpg" alt="Kiku's patio" width="500" height="600"/></div>
+
+    </div>
+
+    <div id="section3">
+        <div class="homekiku"><p>MENU</p></div>
+        <div class="menu">
+            <div><img src="images_2/entree.jpg" alt="entree dish" width="100" height="100"/></div>
+            <div><button>Entrees</button></div>
+            <img src="images_2/tempura.jpg" alt="tempura dish" width="100" height="100"/>
+            <div><button>Tempura</button></div>
+            <img src="images_2/app.jpg" alt="app dish" width="100" height="100"/>
+            <div><button>Appetizers</button></div>
+        </div>
+
+        <div class="menuright">
+            <img src="images_2/soups_salads.jpeg" alt="miso soup" width="100" height="100"/>
+            <div><button>Soups & Salads</button></div>
+            <img src="images_2/hand_rolls.jpg" alt="hand roll" width="100" height="100"/>
+            <div><button>Hand Rolls</button></div>
+            <img src="images_2/speciality_rolls.jpg" alt="speciality roll" width="100" height="100"/>
+            <div><button>Speciality Rolls</button></div>
+        </div>
+        <div class="menu_3">
+            <img src="images_2/pad_thai.jpeg" alt="pad thai dish" width="100" height="100"/>
+            <div><button>Rice & Noodles</button></div>
+            <img src="images_2/sushimi.jpg" alt="sashimi" width="100" height="100"/>
+            <div><button>Sashimi</button></div>
+            <img src="images_2/la_carte.jpg" alt="a la carte" width="100" height="100"/>
+            <div><button>A La Carte</button></div>
+
+        </div>
+    </div>
+
+
+    <div id="section4">
+        <div class="homekiku"><p>RESERVE</p></div>
+        <div class="reserve"><div>Party Room</div>
+            <div><img src="images_2/partyroom.jpg" alt="party room" width="400" height="300"/></div>
+            <div class="tables"> <div>Tables</div>
+                <div><img src="images_2/table_reserve.jpg" alt="table" width="400" height="300"/></div>
+            </div></div>
+        <div class="menuright"><div>Bar Area</div>
+            <div><img src="images_2/reserve_bar.jpg" alt="bar" width="400" height="300"/></div></div>
+
+    </div>
+
+    <div id="section5">
+        <div class="homekiku"><p>CONTACT</p></div>
+        <div class="google_map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2823.629303145212!2d-93.30024628506173!3d44.95120327554813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f6278022552819%3A0xc51475257758c75!2sKiku+Bistro!5e0!3m2!1sen!2sus!4v1522097278707"
+                    width="400" height="400" frameborder="0" style="border:0"></iframe>
+
+        </div>
+        <div class="contact">Uptown Bar, Sushi, & Asian Cuisine
+            2819 Hennepin Ave. S. Minneapolis 55408
+            612-872-1778
+
+            <div>Hours</div>
+            <div> Monday - Thursday: 4:30pm-12:30am</div>
+            <div> Friday - Saturday: 3:00pm-1:30am</div>
+            <div> Sunday: 3:00pm-12:30am</div>
+        </div>
+
+    </div>
+
+
+
+    <div class="arial">
+        <footer><a href="#top">Back To Top</a></footer>
+    </div>
+</div> <!--end of wrapper-->
+<script>
+    $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on('click', function (event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function () {
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
+</script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>One Page Scroll #1</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+<div id="top"></div>
+
+
+<div class="wrapper">
+    <nav>
+        <div class="arial">
+            <a href="#section1"><p id="nav-section1">HOME</p></a>
+            <a href="#section2"><p id="nav-section1">ABOUT</p></a>
+            <a href="#section3"><p id="nav-section1">MENU</p></a>
+            <a href="#section4"><p id="nav-section1">RESERVE</p></a>
+            <a href="#section5"><p id="nav-section1">CONTACT</p></a>
+        </div>
+
+    </nav>
+
+    <div class="arial">
+        <div id="section1">
+
+            <div class="homepic"><img src="images_2/homepage_image.png" alt="arrangement of sushi" width="1000" height="700"/>
+            </div>
+
+        </div>
+
+
+        <div id="section2">
+            <div class="homekiku"><p>ABOUT</p></div>
+
+            <div class="about"><img src="images_2/outside.jpg" alt="Kiku's patio" width="500" height="600"/></div>
+
+        </div>
+
+        <div id="section3">
+            <div class="homekiku"><p>MENU</p></div>
+            <div class="menu">
+                <div><img src="images_2/entree.jpg" alt="entree dish" width="100" height="100"/></div>
+                <div><button>Entrees</button></div>
+                <img src="images_2/tempura.jpg" alt="tempura dish" width="100" height="100"/>
+                <div><button>Tempura</button></div>
+                <img src="images_2/app.jpg" alt="app dish" width="100" height="100"/>
+                <div><button>Appetizers</button></div>
+            </div>
+            <div class="menuright">
+                <img src="images_2/soups_salads.jpeg" alt="miso soup" width="100" height="100"/>
+                <div><button>Soups & Salads</button></div>
+                <img src="images_2/hand_rolls.jpg" alt="hand roll" width="100" height="100"/>
+                <div><button>Hand Rolls</button></div>
+                <img src="images_2/speciality_rolls.jpg" alt="speciality roll" width="100" height="100"/>
+                <div><button>Speciality Rolls</button></div>
+            </div>
+            <div class="menu_3">
+                <img src="images_2/pad_thai.jpeg" alt="pad thai dish" width="100" height="100"/>
+                <div><button>Rice & Noodles</button></div>
+                <img src="images_2/sushimi.jpg" alt="sashimi" width="100" height="100"/>
+                <div><button>Sashimi</button></div>
+                <img src="images_2/la_carte.jpg" alt="a la carte" width="100" height="100"/>
+                <div><button>A La Carte</button></div>
+
+            </div>
+
+
+            <div id="section4">
+                <div class="homekiku"><p>RESERVE</p></div>
+                <div class="reserve"><div>Party Room</div>
+                    <div><img src="images_2/partyroom.jpg" alt="party room" width="400" height="300"/></div>
+                    <div class="tables"> <div>Tables</div>
+                        <div><img src="images_2/table_reserve.jpg" alt="table" width="400" height="300"/></div>
+                    </div></div>
+                <div class="menuright"><div>Bar Area</div>
+                    <div><img src="images_2/reserve_bar.jpg" alt="bar" width="400" height="300"/></div></div>
+
+            </div>
+            <div id="section5">
+                <div class="homekiku"><p>CONTACT</p></div>
+                <div class="google_map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2823.629303145212!2d-93.30024628506173!3d44.95120327554813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f6278022552819%3A0xc51475257758c75!2sKiku+Bistro!5e0!3m2!1sen!2sus!4v1522097278707"
+                            width="400" height="400" frameborder="0" style="border:0"></iframe>
+
+                </div>
+                <div class="contact">Uptown Bar, Sushi, & Asian Cuisine
+                    2819 Hennepin Ave. S. Minneapolis 55408
+                    612-872-1778
+
+                    <div>Hours</div>
+                    <div> Monday - Thursday: 4:30pm-12:30am</div>
+                    <div> Friday - Saturday: 3:00pm-1:30am</div>
+                    <div> Sunday: 3:00pm-12:30am</div>
+                </div>
+            </div>
+            <div><p></p></div>
+        </div>
+
+        <div class="arial">
+            <footer><a href="#top">Back To Top</a></footer>
+        </div>
+    </div> <!--end of wrapper-->
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+
+
+</body>
+</html>
